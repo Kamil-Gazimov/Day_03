@@ -1,0 +1,128 @@
+.wrapper{
+    text-align:center;
+}
+/* start of the header */
+.header{
+    background-color:#264f73;
+    width: 100%;
+    color: white;
+}
+/* Start logo and search box */
+div.logo, div.search-menu{
+    display: inline-block;
+}
+div.search-menu{
+    margin-left: 877px;
+    position: relative;
+    top: -59px;
+}
+div.text-size-picker p a{
+    color: #f9d52e;
+}
+.search-menu box{
+    background-color: white;
+}
+div.search-menu a{
+    color: white;
+}
+div.search-box{
+    background-color:#444444;
+    padding: 25px 50px;
+    border-radius: 20px;
+}
+input{
+    height:50px;
+    width: 200px;
+}
+button{
+    height:56px;
+    width: 54px;
+    padding: 0px;
+    background-color: #245076;
+    border: 5px solid grey;
+    border-style: outset;
+    color: white;
+}
+
+input, button.icon{
+    vertical-align: top;
+}
+/* End logo and search box */
+
+.navigation-menu ul li{
+    display: inline;
+}
+.navigation-menu ul{
+    background-color: #3571a4;
+    width: 1000px;
+    padding: 20px 100px;
+    position: relative;
+    left: 400px;
+    font-size: 26pt;
+}
+.navigation-vbar ul{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    list-style-type: none;
+}
+.navigation-vbar, .about-python {
+    display: inline-block;
+    vertical-align: top;  
+    padding: 20px;   
+}
+.about-python{
+    width: 900px;
+    font-size: 20px;
+    text-align: justify;
+}
+.about-python p{
+        text-align:center;    
+}
+.about-python .p1{
+    font-style:italic;
+    color:#f9d52e;
+    font-size: 20pt;
+}
+.python-moto{
+    width: 400px;
+}
+.logo 
+div.box{
+    vertical-align:middle;
+}
+/* end of the header */
+
+/* start new content */
+.main-content{
+    background-color: white;
+}
+.right-box, .left-box {
+    display: inline-block;
+    vertical-align: top;  
+    padding: 20px;   
+    width: 30%;
+}
+.right-box ul li, .left-box ul li {
+    list-style-type: square;
+    color: #72a7d5;
+    font-size: 20pt;
+}
+.right-box h1, .left-box h1{
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;    
+}
+.right-box p, .left-box p{
+    font-size: 20pt;
+}
+/* end main content */
+
+/* start footer */
+.footer{
+    background-color:#264f73;
+}
+.footer ul{
+    background-color:#264f73;
+    padding-bottom:0px;
+}
+/* end footer */
